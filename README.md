@@ -30,3 +30,11 @@ AZURE_OPENAI_MODEL_NAME = "gpt-35-turbo"
 ```
 
 Sampke taken from https://github.com/microsoft/sample-app-aoai-chatGPT/blob/main/app.py. See https://learn.microsoft.com/en-us/azure/ai-services/openai/use-your-data-quickstart?tabs=command-line&pivots=programming-language-studio for more information.
+
+Note that my Cognitive Search instance contained an index named `jobs`. It was populated with PDFs containing job descriptions. See the blog post below for more infirmation:
+
+https://blog.baeke.info/2023/07/29/building-a-chatbot-based-on-your-documents-in-azure/
+
+At the end of that post, there is a video as well:
+
+https://youtu.be/gySeOggsz-w
